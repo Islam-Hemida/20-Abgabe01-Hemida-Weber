@@ -5,7 +5,7 @@ Assignment 01: Test Automation with JUnit
 - Bachelor program MSD Fh - Joanneum
 
 
-**Contributors, Lecturers and Tutors**
+**Team**
 - [Islam Hemida]
 - [Lukas Weber]
 
