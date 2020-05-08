@@ -6,8 +6,8 @@ Assignment 01: Test Automation with JUnit
 
 
 **Team**
-- [Islam Hemida]
-- [Lukas Weber]
+- [Islam Hemida][islam1992]
+- [Lukas Weber][iamLukWeb]
 
 
 **Course:**
