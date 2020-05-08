@@ -1,3 +1,13 @@
-# 20-Abgage01-Hemida-Weber
-Git Repository for the "Configuration Management" class of the Dual Bachelor Mobile Software Development at the FH Joanneum.
-Hallo
+# Software Configuration Management #
+
+Assignment 01: Test Automation with JUnit
+
+- Bachelor program MSD Fh - Joanneum
+
+
+**Contributors, Lecturers and Tutors**
+- [Islam Hemida]
+- [Lukas Weber]
+
+
+**Course:**
