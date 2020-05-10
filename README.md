@@ -7,7 +7,7 @@ Assignment 01: Test Automation with JUnit
 
 **Team**
 - [Islam Hemida][islam1992]
-- [Lukas Weber][iamLukWeb]
+- [Lukas Weber][iamWebLuk]
 
 
 **Course:**
@@ -15,4 +15,4 @@ Assignment 01: Test Automation with JUnit
 
 
 [islam1992]: https://github.com/Islam1992 
-[iamLukWeb]: https://github.com/iamWebLuk
+[iamWebLuk]: https://github.com/iamWebLuk
