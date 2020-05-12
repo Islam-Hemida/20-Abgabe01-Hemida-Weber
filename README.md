@@ -2,7 +2,7 @@
 
 Assignment 01: Test Automation with JUnit
 
-- Bachelor program MSD Fh - Joanneum
+- Bachelor program MSD Fh - Joanneum.
 
 
 **Team**
@@ -14,5 +14,5 @@ Assignment 01: Test Automation with JUnit
 
 
 
-[islam1992]: https://github.com/Islam1992 
+[islam1992]: https://github.com/Islam1992
 [iamLukWeb]: https://github.com/iamWebLuk
