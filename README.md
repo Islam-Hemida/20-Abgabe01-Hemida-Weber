@@ -10,7 +10,7 @@ Assignment 01: Test Automation with JUnit
 - [Lukas Weber][iamLukWeb]
 
 
-##Steps for mastering this exercise 
+Alt-H1Steps for mastering this exercise 
 
 - Create subclass Cocktail
 - Creater subclass ShakenOrStirred
