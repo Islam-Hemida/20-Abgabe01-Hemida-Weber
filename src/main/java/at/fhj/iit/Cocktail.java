@@ -41,7 +41,7 @@ public class Cocktail extends Drink {
 
     @Override
     public boolean isAlcoholic() {
-        return false;
+        return true;
     }
 
     public void setVolume(double volume) {
