@@ -1,11 +1,15 @@
 package at.fhj.iit;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CocktailTest {
 
+    @BeforeEach void setup(){
+
+    }
     @Test
     void getVolume() {
     }
@@ -32,5 +36,4 @@ class CocktailTest {
 
     @Test
     void toMuchAlkohol() {
-    }
 }
