@@ -33,7 +33,8 @@ The second subclass will chek if customer would habe his drink shaken or stirred
 Junit Tests
 =====
 
-Testing subclass SimpleDrink and Cocktail. 
+- Testing subclass Cocktail. 
+- Try to test isAlkoholic. 
 
 Coe Snippet for Subclass Cocktail
 =====
