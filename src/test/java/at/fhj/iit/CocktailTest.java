@@ -16,13 +16,13 @@ class CocktailTest {
     @BeforeEach
     void setup() {
         C1 = new Cocktail("Long Island", 1);
-        C2 = new Cocktail("Pina Colada",4);
+        C2 = new Cocktail("Pina Colada", 4);
         C3 = new Cocktail("Mochito", 2);
         C4 = new Cocktail("Kaffee", 3);
     }
 
     /***
-     * 
+     *
      */
     @Test
     void testGetAlcoholPercent() {
@@ -54,18 +54,16 @@ class CocktailTest {
         assertEquals(C4.getMaxVolume(), 3);
 
 
-
     }
 
     /***
      * das musst noch ändern
      */
     @Test
-//    void tooMuchAlkohol() {
-//        assertEquals(C4., 3);
-//        assertEquals(C4.getMaxVolume(), 3);
-//        assertEquals(C4.getMaxVolume(), 3);
-//        assertEquals(C4.getMaxVolume(), 3);
-
+    void tooMuchAlkohol() {
+        assertEquals(C1.tooMuchAlkohol(1), false);
+        assertEquals(C2.tooMuchAlkohol(3), false);
+        assertEquals(C3.tooMuchAlkohol(3), true);
+        assertEquals(C4.tooMuchAlkohol(1), false);
     }
 }

@@ -83,11 +83,14 @@ public class Cocktail extends Drink {
 
     /***
      *
-     * @param maxVolume;
+     * @param volume;
      */
-    public static void tooMuchAlkohol(int maxVolume) {
-        if (maxVolume >= 2) {
+    public boolean tooMuchAlkohol(int volume) {
+        this.volume += volume;
+        if (this.volume > this.maxVolume) {
             System.out.println("Don't drink nothing more this day");
+            return true;
         }
+        return false;
     }
 }

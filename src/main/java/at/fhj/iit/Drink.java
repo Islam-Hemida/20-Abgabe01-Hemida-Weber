@@ -29,6 +29,8 @@ public abstract class Drink {
      * @return alcohol volume percent (e.g. 50)
      */
     public abstract double getAlcoholPercent();
+
+
     /**
      * Gives information if drink is alcoholic or not
      *
