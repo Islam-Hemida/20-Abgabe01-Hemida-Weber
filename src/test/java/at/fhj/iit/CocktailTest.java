@@ -12,7 +12,9 @@ class CocktailTest {
     private Cocktail C3;
     private Cocktail C4;
 
-
+    /***
+     * create 4 Cocktails Objects
+     */
     @BeforeEach
     void setup() {
         C1 = new Cocktail("Long Island", 1);
@@ -22,7 +24,7 @@ class CocktailTest {
     }
 
     /***
-     *
+     * testGetAlcoholPErcent
      */
     @Test
     void testGetAlcoholPercent() {
@@ -44,7 +46,7 @@ class CocktailTest {
     }
 
     /**
-     *
+     * getMaxVolume
      */
     @Test
     void getMaxVolume() {
@@ -57,7 +59,7 @@ class CocktailTest {
     }
 
     /***
-     * das musst noch ändern
+     * testing tooMuchAlkohol
      */
     @Test
     void tooMuchAlkohol() {
