@@ -14,10 +14,14 @@ public class ShakenOrStirred extends Cocktail {
      * @param maxVolume
      */
     public ShakenOrStirred(String name, double maxVolume) {
+
         super(name, maxVolume);
     }
 
-    // Check if costumer would like his/her cocktail shaken or stirred.
+    /***
+     *      *     Check if costumer would like his/her cocktail shaken or stirred.
+     * @param shaken
+     */
     public static void choice(Boolean shaken) {
         if(shaken) {
             System.out.println("I am James Bond");

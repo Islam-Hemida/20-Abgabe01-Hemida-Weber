@@ -28,34 +28,62 @@ public class Cocktail extends Drink {
         this.maxVolume = maxVolume;
     }
 
-    // you can have 0.2L and 0.5L
+    /***
+     * you can have 0.2L and 0.5L
+     * @return
+     */
+
     @Override
     public double getVolume() {
         return volume;
     }
 
+    /***
+     *
+     * @return
+     */
     @Override
     public double getAlcoholPercent() {
         return 0;
     }
 
+    /***
+     *
+     * @return
+     */
     @Override
     public boolean isAlcoholic() {
         return false;
     }
 
+    /***
+     *
+     * @param volume
+     */
     public void setVolume(double volume) {
         this.volume = volume;
     }
 
+    /***
+     *
+     * @return
+     */
     public double getMaxVolume() {
         return maxVolume;
     }
 
+    /***
+     *
+     * @param maxVolume
+     */
     public void setMaxVolume(double maxVolume) {
         this.maxVolume = maxVolume;
     }
 
+    /***
+     *
+     * @param volume
+     */
     public static void toMuchAlkohol(int volume) {
         if (volume >= 2) {
             System.out.println("Don't drink nothing more this day");
