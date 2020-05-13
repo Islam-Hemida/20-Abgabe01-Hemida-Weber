@@ -11,7 +11,8 @@ Team
 - [Lukas Weber][iamLukWeb]
 
 
-**Steps for mastering this exercise 
+Steps for mastering this exercise 
+=====
 
 - Create subclass Cocktail
 - Creater subclass ShakenOrStirred
