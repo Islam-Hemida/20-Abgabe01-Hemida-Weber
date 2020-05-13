@@ -21,6 +21,7 @@ public class Cocktail extends Drink {
      * Creates a Drink object with given name
      *
      * @param name name of the drink
+     * 
      */
     public Cocktail(String name, double maxVolume) {
         super(name);
