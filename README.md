@@ -36,7 +36,7 @@ Junit Tests
 - Testing subclass Cocktail. 
 - Try to test isAlkoholic. 
 
-Coe Snippet for Subclass Cocktail
+Code Snippet for Subclass Cocktail
 =====
 
 If the customer drink more than 2 Cocktails then he have drink to much alcohol
