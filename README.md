@@ -42,10 +42,14 @@ Code Snippet for Subclass Cocktail
 If the customer drink more than 2 Cocktails then he have drink to much alcohol
 
 ```Java 
-public static void toMuchAlkohol(int volume) {
-        if (volume >= 2) {
+ public boolean tooMuchAlkohol(int volume) {
+        this.volume += volume;
+        if (this.volume > this.maxVolume) {
             System.out.println("Don't drink nothing more this day");
+            return true;
         }
+        return false;
+    }
  ```
 
 
