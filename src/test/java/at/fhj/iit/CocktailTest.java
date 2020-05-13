@@ -22,19 +22,7 @@ class CocktailTest {
     }
 
     /***
-     *
-     */
-    @Test
-    void testGetVolume() {
-       assertEquals(C1.getVolume(), 6);
-        assertEquals(C2.getVolume(), 8);
-        assertEquals(C3.getVolume(), 7);
-        assertEquals(C4.getVolume(), 5);
-
-    }
-
-    /***
-     *
+     * 
      */
     @Test
     void testGetAlcoholPercent() {
@@ -55,35 +43,29 @@ class CocktailTest {
         assertFalse(!C4.isAlcoholic());
     }
 
-    /***
-     *
-     */
-    @Test
-    void testSetVolume() {
-        assertEquals(C1.getVolume(), 6);
-        assertEquals(C2.getVolume(), 8);
-        assertEquals(C3.getVolume(), 7);
-        assertEquals(C4.getVolume(), 5);
-    }
-
     /**
      *
      */
     @Test
     void getMaxVolume() {
+        assertEquals(C1.getMaxVolume(), 1);
+        assertEquals(C2.getMaxVolume(), 4);
+        assertEquals(C3.getMaxVolume(), 2);
+        assertEquals(C4.getMaxVolume(), 3);
+
+
+
     }
 
     /***
-     *
+     * das musst noch ändern
      */
     @Test
-    void setMaxVolume() {
-    }
+//    void tooMuchAlkohol() {
+//        assertEquals(C4., 3);
+//        assertEquals(C4.getMaxVolume(), 3);
+//        assertEquals(C4.getMaxVolume(), 3);
+//        assertEquals(C4.getMaxVolume(), 3);
 
-    /***
-     *
-     */
-    @Test
-    void toMuchAlkohol() {
     }
 }

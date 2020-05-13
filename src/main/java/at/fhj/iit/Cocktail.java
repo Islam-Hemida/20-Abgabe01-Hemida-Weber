@@ -17,6 +17,7 @@ public class Cocktail extends Drink {
     // for the max Volume you can drink
     private double maxVolume = 5;
 
+
     /**
      * Creates a Drink object with given name
      *
@@ -82,10 +83,10 @@ public class Cocktail extends Drink {
 
     /***
      *
-     * @param volume
+     * @param maxVolume;
      */
-    public static void toMuchAlkohol(int volume) {
-        if (volume >= 2) {
+    public static void tooMuchAlkohol(int maxVolume) {
+        if (maxVolume >= 2) {
             System.out.println("Don't drink nothing more this day");
         }
     }
