@@ -10,7 +10,7 @@ Assignment 01: Test Automation with JUnit
 - [Lukas Weber][iamLukWeb]
 
 
-Alt-H1Steps for mastering this exercise 
+**Steps for mastering this exercise 
 
 - Create subclass Cocktail
 - Creater subclass ShakenOrStirred
@@ -19,7 +19,8 @@ Alt-H1Steps for mastering this exercise
 - Junit Test for Exception
 - Create final report
 
-##Plan for Subclass Cocktail
+##**Plan for Subclass Cocktail
+=====
 
 The method in the first subclass will chek if you have drink too much alcohol. 
 
