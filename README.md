@@ -35,6 +35,18 @@ Junit Tests
 
 Testing subclass SimpleDrink and Cocktail. 
 
+Coe Snippet for Subclass Cocktail
+=====
+
+If the customer drink more than 2 Cocktails then he have drink to much alcohol
+
+```Java 
+public static void toMuchAlkohol(int volume) {
+        if (volume >= 2) {
+            System.out.println("Don't drink nothing more this day");
+        }
+        ```
+
 
 
 [islam1992]: https://github.com/Islam1992
