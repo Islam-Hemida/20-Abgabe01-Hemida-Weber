@@ -27,7 +27,7 @@ The method in the first subclass will chek if you have drink too much alcohol.
 
 The second subclass will chek if customer would habe his drink shaken or stirred
 
-##Junit Tests*
+##Junit Tests
 
 Testing subclass SimpleDrink and Cocktail. 
 
