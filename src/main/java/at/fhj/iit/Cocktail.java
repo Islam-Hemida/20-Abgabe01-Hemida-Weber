@@ -12,15 +12,19 @@ import java.util.ArrayList;
  */
 // this is a subclass of drinks
 public class Cocktail extends Drink {
+    // for the current volume you have
+    private double volume = 0;
+    // for the max Volume you can drink
+    private double maxVolume = 5;
 
-int volume;
     /**
      * Creates a Drink object with given name
      *
      * @param name name of the drink
      */
-    public Cocktail(String name) {
+    public Cocktail(String name, double maxVolume) {
         super(name);
+        this.maxVolume = maxVolume;
     }
 
     // you can have 0.2L and 0.5L
@@ -37,5 +41,23 @@ int volume;
     @Override
     public boolean isAlcoholic() {
         return false;
+    }
+
+    public void setVolume(double volume) {
+        this.volume = volume;
+    }
+
+    public double getMaxVolume() {
+        return maxVolume;
+    }
+
+    public void setMaxVolume(double maxVolume) {
+        this.maxVolume = maxVolume;
+    }
+
+    public static void toMuchAlkohol(int volume) {
+        if (volume >= 2) {
+            System.out.println("Don't drink nothing more this day");
+        }
     }
 }
