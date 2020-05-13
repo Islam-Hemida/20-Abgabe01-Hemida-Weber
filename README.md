@@ -5,7 +5,7 @@ Assignment 01: Test Automation with JUnit
 - Bachelor program MSD FH - Joanneum.
 
 
-##Team
+**Team
 - [Islam Hemida][islam1992]
 - [Lukas Weber][iamLukWeb]
 
@@ -19,7 +19,7 @@ Assignment 01: Test Automation with JUnit
 - Junit Test for Exception
 - Create final report
 
-##**Plan for Subclass Cocktail
+**Plan for Subclass Cocktail
 =====
 
 The method in the first subclass will chek if you have drink too much alcohol. 
@@ -28,7 +28,8 @@ The method in the first subclass will chek if you have drink too much alcohol.
 
 The second subclass will chek if customer would habe his drink shaken or stirred
 
-##Junit Tests
+**Junit Tests
+=====
 
 Testing subclass SimpleDrink and Cocktail. 
 
